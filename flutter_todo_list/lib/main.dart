@@ -10,8 +10,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'To-Do List',
-      home: SplashScreen()
+      home: SplashScreen(),
+      theme: ThemeData(
+        primarySwatch: Colors.red,
+      ),
     );
   }
 }
-

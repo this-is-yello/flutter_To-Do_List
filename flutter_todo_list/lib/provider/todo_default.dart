@@ -18,10 +18,9 @@ class TodoDefault {
 
   Todo addTodo(Todo todo) {
     Todo newTodo = Todo(
-      id: dummyTodos.length + 1,
-      title: todo.title,
-      description: todo.description
-    );
+        id: dummyTodos.length + 1,
+        title: todo.title,
+        description: todo.description);
     dummyTodos.add(newTodo);
     return newTodo;
   }
