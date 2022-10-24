@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_todo_list/screens/login_screen.dart';
 
 import 'package:flutter_todo_list/screens/splash_screen.dart';
 
@@ -9,10 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'To-Do List',
-      home: SplashScreen(),
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      home: SplashScreen()
     );
   }
 }
