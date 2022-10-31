@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_todo_list/screens/login_screen.dart';
-
 import 'package:flutter_todo_list/screens/splash_screen.dart';
 
 void main() => runApp(MyApp());
