@@ -47,6 +47,7 @@ android {
         applicationId "com.example.flutter_todo_list"
         minSdkVersion flutter.minSdkVersion
         targetSdkVersion flutter.targetSdkVersion
+        multiDexEnable true
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
