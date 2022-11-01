@@ -36,11 +36,11 @@ class _SplashScreenState extends State<SplashScreen> {
   void moveScreen() async {
     await checkLogin().then((isLogin) {
       if (isLogin) {
-        Navigator.of(context).pushReplacement(
-            MaterialPageRoute(builder: (context) => ListScreen()));
+        Navigator.of(context)
+            .push(MaterialPageRoute(builder: (context) => ListScreen()));
       } else {
-        Navigator.of(context).pushReplacement(
-            MaterialPageRoute(builder: (context) => LoginScreen()));
+        Navigator.of(context)
+            .push(MaterialPageRoute(builder: (context) => LoginScreen()));
       }
     });
   }
