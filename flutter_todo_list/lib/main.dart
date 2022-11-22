@@ -4,20 +4,18 @@ import 'package:flutter_todo_list/screens/login_screen.dart';
 import 'package:flutter_todo_list/screens/splash_screen.dart';
 import 'firebase_options.dart';
 
-void main() async{
-
+void main() async {
   // WidgetsFlutterBinding.ensureInitialized();
   // await Firebase.initializeApp();
 
-    WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
   print('-- WidgetsFlutterBinding.ensureInitialized');
 
-
-await Firebase.initializeApp(
+  await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
-);
+  );
 
-runApp(MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
